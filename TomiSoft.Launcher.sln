@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomiSoft.Launcher.UI", "TomiSoft.Launcher.UI\TomiSoft.Launcher.UI.csproj", "{B3D7DE75-9BA3-4AB4-B925-3B3ECFC2C8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomiSoft.Launcher.Core", "TomiSoft.Launcher.Core\TomiSoft.Launcher.Core.csproj", "{36E6F664-AFD8-4E2C-BB46-3414A62912DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D7DE75-9BA3-4AB4-B925-3B3ECFC2C8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D7DE75-9BA3-4AB4-B925-3B3ECFC2C8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D7DE75-9BA3-4AB4-B925-3B3ECFC2C8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D7DE75-9BA3-4AB4-B925-3B3ECFC2C8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E6F664-AFD8-4E2C-BB46-3414A62912DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E6F664-AFD8-4E2C-BB46-3414A62912DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E6F664-AFD8-4E2C-BB46-3414A62912DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E6F664-AFD8-4E2C-BB46-3414A62912DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {723391CA-F52A-492E-A3D6-580C0B8E1C05}
+	EndGlobalSection
+EndGlobal
