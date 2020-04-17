@@ -40,11 +40,12 @@ You can use variables anywhere in the "Services" section using #[VariableName], 
   "Variables": {
     "ServiceDirectory": "C:\\SomeDirectory"
   },
-  "Services": {
+  "Services": [{
     ...
     "ExecutablePath": "#[Variables.ServiceDirectory]\\MyApplication.exe",
     ...
-  }
+  }]
+}
 ```
 
 ### Predefined variables
