@@ -56,6 +56,20 @@ There are predefined variables as well.
 |--------------------------|------------------------------------------------------------------|
 | File.ContainingDirectory | The full path of the directory containing the configuration file |
 
+### Health monitors
+
+Health monitors are used to determine that a service is responding for the user's requests. The following health monitors are supported currently:
+
+| Monitor name         | Description                                                                                |
+|----------------------|--------------------------------------------------------------------------------------------|
+| RestApiHealthMonitor | Performs GET request to a specified HTTP endpoint and expects HTTP 200 or 204 as response. |
+
+#### RestApiHealthMonitor configuration
+
+| Configuration        | Description                                                                                    |
+|----------------------|------------------------------------------------------------------------------------------------|
+| Url                  | An HTTP GET endpoint that returns HTTP 200 or HTTP 204 as a response if the service is running |
+
 Command-Line arguments
 ----------------------
 The application has one mandatory command-line argument, and it is the full path of the configuration file. So, you need to start the software like this:
