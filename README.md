@@ -32,8 +32,8 @@ Create a JSON file with the following structure:
 }
 ```
 
-Using variables
----------------
+### Using variables
+
 You can use variables anywhere in the "Services" section using #[VariableName], but you need to define them in the "Variables" section as well. Every variable you define in "Variables" section will be prefixed with "Variables." For example:
 ```
 {
@@ -46,6 +46,8 @@ You can use variables anywhere in the "Services" section using #[VariableName], 
     ...
   }
 ```
+
+### Predefined variables
 
 There are predefined variables as well.
 
